@@ -89,9 +89,28 @@ export default function ManaliEnglishLandingPage() {
       a: 'Yes. A short first assessment or trial can be offered to understand the child\'s current level and learning needs.',
     },
   ];
-
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  name: "Manali Dixit English Classes",
+  description: "Online English speaking classes for kids",
+  email: "dixitmanali1@gmail.com",
+  telephone: "+918299205968",
+  areaServed: "India",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Lucknow",
+    addressCountry: "India"
+  }
+};
   return (
     <div className="min-h-screen bg-[#f8f4e7] text-slate-800">
+
+ <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+    />
+
       <div className="mx-auto max-w-6xl px-4 py-5 sm:px-6 lg:px-8">
         <header className="rounded-[2rem] border border-[#efe8cc] bg-white/80 px-5 py-5 shadow-[0_10px_30px_rgba(15,23,42,0.04)] backdrop-blur">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">

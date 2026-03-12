@@ -12,9 +12,27 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: 'Manali Dixit English Classes',
-  description: 'Online English classes for kids with Manali Dixit. Build speaking confidence and communication skills.',
-}
+  title: "Manali Dixit English Classes | Online English Classes for Kids",
+  description:
+    "Online English speaking classes for kids with Manali Dixit. Improve spoken English, confidence and communication skills with personalized learning.",
+  keywords: [
+    "English classes for kids",
+    "online English tutor for kids",
+    "spoken English classes Lucknow",
+    "English tutor Manali Dixit",
+    "English speaking course for children",
+  ],
+  authors: [{ name: "Manali Dixit" }],
+  openGraph: {
+    title: "Manali Dixit English Classes",
+    description:
+      "Online English classes for kids to build confidence and communication skills.",
+    type: "website",
+    locale: "en_IN",
+    url: "https://www.manalidixit.com",
+  },
+};
+
 
 export default function RootLayout({ children }) {
   return (
