@@ -230,11 +230,19 @@ export default function ManaliEnglishLandingPage() {
             <h3 className="mt-6 text-4xl font-medium leading-tight tracking-tight text-slate-800 sm:text-6xl">
               Learning should be a joy, not a chore.
             </h3>
-            <p className="mt-6 text-lg leading-8 text-slate-600 sm:text-xl">
-              I am Manali Dixit, an English teacher helping children communicate with more
-              clarity and confidence for school and future opportunities. My classes are warm,
-              structured, and designed to make kids enjoy speaking English.
-            </p>
+           <p className="mt-6 text-lg leading-8 text-slate-600 sm:text-xl">
+Manali Dixit is an experienced English educator with more than 5+ years of
+teaching experience and a strong background in both online and classroom
+learning environments. She has conducted hundreds of one-to-one online English
+sessions and has also worked with education startups focused on live video
+learning for children.
+</p>
+
+<p className="mt-4 text-lg leading-8 text-slate-600 sm:text-xl">
+Alongside online teaching, she has taught students from several well-known
+schools in Lucknow and has helped many children improve their spoken English,
+confidence, and classroom communication skills.
+</p>
             <ul className="mt-8 space-y-4 text-lg text-slate-700">
               <li>• Warm, patient, child-friendly teaching style</li>
               <li>• Focus on speaking confidence and real conversation</li>
@@ -244,41 +252,86 @@ export default function ManaliEnglishLandingPage() {
         </div>
       </section>
 
-      <section id="curriculum" className="bg-[#f8f4e7]">
-        <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl text-center">
-            <div className="text-sm font-semibold uppercase tracking-[0.35em] text-amber-600 sm:text-base">
-              Simple pricing
-            </div>
-            <h3 className="mt-5 text-4xl font-medium leading-tight tracking-tight text-slate-800 sm:text-6xl">
-              Affordable classes with real value
-            </h3>
-          </div>
+<section id="curriculum" className="bg-[#f8f4e7]">
+  <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-3xl text-center">
+      <div className="text-sm font-semibold uppercase tracking-[0.35em] text-amber-600 sm:text-base">
+        Simple pricing
+      </div>
+      <h3 className="mt-5 text-4xl font-medium leading-tight tracking-tight text-slate-800 sm:text-6xl">
+        Choose the class format that suits your child
+      </h3>
+    </div>
 
-          <div className="mx-auto mt-12 max-w-2xl rounded-[2.5rem] bg-[#ff6b00] p-8 text-white shadow-[0_18px_50px_rgba(255,107,0,0.25)] sm:p-10">
-            <div className="inline-flex rounded-full bg-white px-5 py-2 text-sm font-semibold text-[#c56a18] shadow">
-              Limited Time Offer
-            </div>
-            <div className="mt-7 text-5xl font-medium sm:text-6xl">Special Offer</div>
-            <div className="mt-6 text-7xl font-medium tracking-tight">₹300</div>
-            <div className="mt-2 text-2xl text-white/90">per class</div>
-
-            <ul className="mt-8 space-y-5 text-xl text-white/95">
-              <li>• 1 Hour Session</li>
-              <li>• Personalized Attention</li>
-              <li>• Free First Assessment</li>
-              <li>• Study Material</li>
-            </ul>
-
-            <a
-              href="#book"
-              className="mt-10 inline-flex w-full items-center justify-center rounded-full bg-white px-8 py-5 text-2xl font-semibold text-[#d06d12] shadow-lg transition hover:-translate-y-0.5"
-            >
-              Choose this plan
-            </a>
-          </div>
+    <div className="mx-auto mt-12 grid max-w-5xl gap-8 lg:grid-cols-2">
+      <div className="rounded-[2.5rem] border border-[#efe8cc] bg-white p-8 shadow-[0_18px_50px_rgba(15,23,42,0.08)] sm:p-10">
+        <div className="inline-flex rounded-full bg-amber-50 px-5 py-2 text-sm font-semibold text-amber-700 shadow">
+          Personal Attention
         </div>
-      </section>
+
+        <div className="mt-7 text-4xl font-medium">1-to-1 Class</div>
+        <div className="mt-6 text-7xl font-medium tracking-tight">₹500</div>
+        <div className="mt-2 text-xl text-slate-500">per class</div>
+
+        <ul className="mt-8 space-y-4 text-lg text-slate-700">
+          <li>• 1 Hour Session</li>
+          <li>• One-to-one learning</li>
+          <li>• Personalized feedback</li>
+          <li>• Flexible timing</li>
+        </ul>
+
+        <div className="mt-8 flex flex-col gap-3">
+          <a
+            href="https://wa.me/918299205968?text=Hi%20Manali%2C%20I%20want%20to%20continue%20with%20the%201-to-1%20English%20class%20for%20my%20child."
+            className="inline-flex items-center justify-center rounded-full bg-[#f6a400] px-8 py-4 text-lg font-semibold text-white shadow-lg transition hover:-translate-y-0.5"
+          >
+            Continue on WhatsApp
+          </a>
+
+          <a
+            href="mailto:dixitmanali1@gmail.com?subject=1-to-1%20English%20Class%20Enquiry&body=Hi%20Manali%2C%0D%0A%0D%0AI%20want%20to%20continue%20with%20the%201-to-1%20English%20class%20for%20my%20child."
+            className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-slate-50 px-8 py-4 text-lg font-semibold text-slate-700 transition hover:-translate-y-0.5"
+          >
+            Continue on Email
+          </a>
+        </div>
+      </div>
+
+      <div className="rounded-[2.5rem] bg-[#f4a261] p-8 text-white shadow-[0_18px_50px_rgba(244,162,97,0.28)] sm:p-10">
+        <div className="inline-flex rounded-full bg-white px-5 py-2 text-sm font-semibold text-[#b86a2f] shadow">
+          Best Value
+        </div>
+
+        <div className="mt-7 text-4xl font-medium">Group Class (4 Students)</div>
+        <div className="mt-6 text-7xl font-medium tracking-tight">₹250</div>
+        <div className="mt-2 text-xl text-white/90">per class</div>
+
+        <ul className="mt-8 space-y-4 text-lg text-white/95">
+          <li>• 1 Hour Session</li>
+          <li>• Small group of 4 students</li>
+          <li>• Interactive speaking practice</li>
+          <li>• Study material included</li>
+        </ul>
+
+        <div className="mt-8 flex flex-col gap-3">
+          <a
+            href="https://wa.me/918299205968?text=Hi%20Manali%2C%20I%20want%20to%20continue%20with%20the%20group%20English%20class%20for%20my%20child."
+            className="inline-flex items-center justify-center rounded-full bg-white px-8 py-4 text-lg font-semibold text-[#b86a2f] shadow-lg transition hover:-translate-y-0.5"
+          >
+            Continue on WhatsApp
+          </a>
+
+          <a
+            href="mailto:dixitmanali1@gmail.com?subject=Group%20English%20Class%20Enquiry&body=Hi%20Manali%2C%0D%0A%0D%0AI%20want%20to%20continue%20with%20the%20group%20English%20class%20for%20my%20child."
+            className="inline-flex items-center justify-center rounded-full border border-white/30 bg-white/10 px-8 py-4 text-lg font-semibold text-white transition hover:-translate-y-0.5"
+          >
+            Continue on Email
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
       <section className="bg-[#f7fbfe]">
         <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8">
@@ -361,7 +414,7 @@ export default function ManaliEnglishLandingPage() {
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <a
-                href="https://wa.me/910000000000"
+                href="https://wa.me/918299205968"
                 className="inline-flex items-center justify-center rounded-full bg-[#f6a400] px-8 py-5 text-lg font-semibold text-white shadow-lg transition hover:-translate-y-0.5"
               >
                 Book via WhatsApp
