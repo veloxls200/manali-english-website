@@ -163,9 +163,9 @@ export default function ManaliEnglishLandingPage() {
           <div className="relative">
             <div className="overflow-hidden rounded-[2.5rem] border-[6px] border-white bg-white shadow-[0_18px_50px_rgba(15,23,42,0.12)]">
               <img
-                src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=1200&q=80"
-                alt="Child attending online class"
-                className="h-[580px] w-full object-cover"
+              src="/images/manali_dp.png"
+              alt="Manali Dixit English Teacher"
+              className="h-[640px] w-full object-cover"
               />
             </div>
             <div className="absolute bottom-6 left-6 rounded-[1.8rem] bg-white/95 px-6 py-4 shadow-xl backdrop-blur">
@@ -217,11 +217,11 @@ export default function ManaliEnglishLandingPage() {
       <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8">
         <div className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
           <div className="overflow-hidden rounded-[2.5rem] bg-white shadow-[0_18px_50px_rgba(15,23,42,0.08)]">
-            <img
-              src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1200&q=80"
-              alt="Manali Dixit"
+                      <img
+              src="/images/manali_bag.png"
+              alt="Manali Dixit English Teacher"
               className="h-[640px] w-full object-cover"
-            />
+              />
           </div>
           <div>
             <div className="inline-flex rounded-full bg-pink-100 px-5 py-2 text-xs font-semibold uppercase tracking-[0.32em] text-pink-600 shadow-sm sm:text-sm">
