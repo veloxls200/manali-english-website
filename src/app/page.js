@@ -148,7 +148,7 @@ const structuredData = {
                 href="#book"
                 className="inline-flex items-center justify-center rounded-full bg-[#f6a400] px-8 py-4 text-lg font-semibold text-white shadow-[0_10px_25px_rgba(246,164,0,0.28)] transition hover:-translate-y-0.5"
               >
-                Book a Class – ₹300 Only
+                Book a Class – ₹250 Only
               </a>
               <a
                 href="#curriculum"
