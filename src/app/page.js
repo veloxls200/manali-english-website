@@ -162,7 +162,7 @@ const structuredData = {
               {[
                 ['Trusted By', '50+ Parents'],
                 ['Class Format', '100% Online'],
-                ['Special Offer', '₹300 / class'],
+                ['Special Offer', '₹250 / class'],
               ].map(([label, value]) => (
                 <div
                   key={label}
